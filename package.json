@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "column-fill"
   ],
   "css-column-fill": {
     "type": "git",

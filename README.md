@@ -23,19 +23,19 @@ or download the css on github and include in your project.
 .cf-balance { column-fill: balance; }
 .cf-i       { column-fill: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .cf-auto-ns    { column-fill: auto; }
   .cf-balance-ns { column-fill: balance; }
   .cf-i-ns       { column-fill: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .cf-auto-m    { column-fill: auto; }
   .cf-balance-m { column-fill: balance; }
   .cf-i-m       { column-fill: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .cf-auto-l    { column-fill: auto; }
   .cf-balance-l { column-fill: balance; }
   .cf-i-l       { column-fill: inherit; }

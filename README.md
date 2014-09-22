@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-column-fill)
 ## File Size
 
 651B column-fill.css
-491B column-fill.min.css
+491B column-fill.min.css 
+162B minified and gzipped
 
 ## The Code
 ```

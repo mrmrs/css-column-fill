@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-column-fill)
 ## File Size
 
 651B column-fill.css
-491B column-fill.min.css 
+491B column-fill.min.css
 162B minified and gzipped
 
 ## The Code
@@ -58,7 +58,7 @@ View on [npm](https://www.npmjs.org/package/css-column-fill)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

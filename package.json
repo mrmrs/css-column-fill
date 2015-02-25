@@ -1,7 +1,7 @@
 {
   "name": "css-column-fill",
   "style": "column-fill.css",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "http://github.com/mrmrs/css-column-fill",
   "description": "Css module of single purpose classes for column fill",
   "keywords": [

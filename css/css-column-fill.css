@@ -1,15 +1,22 @@
+/*
+   COLUMN FILL
+*/
+.cf-auto { column-fill: auto; }
+.cf-balance { column-fill: balance; }
+.cf-i { column-fill: inherit; }
+@media screen and (min-width: 48em) {
+ .cf-auto-ns { column-fill: auto; }
+ .cf-balance-ns { column-fill: balance; }
+ .cf-i-ns { column-fill: inherit; }
+}
+@media screen and (min-width:48em) and (max-width: 64em) {
+ .cf-auto-m { column-fill: auto; }
+ .cf-balance-m { column-fill: balance; }
+ .cf-i-m { column-fill: inherit; }
+}
+@media screen and (min-width: 64em) {
+ .cf-auto-l { column-fill: auto; }
+ .cf-balance-l { column-fill: balance; }
+ .cf-i-l { column-fill: inherit; }
+}
 
-  Postprocess tachyons stylesheets
-
-  Usage
-    $ tachyons <input.css>
-
-  Options
-    -m, --minify Minify the output stylesheet
-    --generate-docs Generate documentation for a given module
-    --package The path to the module package to be documented
-
-  Example
-    $ tachyons src/tachyons.css > dist/c.css
-    $ tachyons src/tachyons.css > dist/c.css --minify
-    $ tachyons src/tachyons-type-scale.css --generate-docs --package=./package.json > readme.md

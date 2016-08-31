@@ -1,7 +1,7 @@
 {
   "name": "css-column-fill",
   "style": "column-fill.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-column-fill",
   "description": "Css module of single purpose classes for column fill",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-column-fill.css > css/css-column-fill.css && tachyons src/css-column-fill.css --minify > css/css-column-fill.min.css && tachyons src/css-column-fill.css --generate-docs --package=../../package.json > readme.md"

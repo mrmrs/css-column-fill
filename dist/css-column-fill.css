@@ -1,22 +1,53 @@
-/*
-   COLUMN FILL
-*/
-.cf-auto { -webkit-column-fill: auto; -moz-column-fill: auto; column-fill: auto; }
-.cf-balance { -webkit-column-fill: balance; -moz-column-fill: balance; column-fill: balance; }
-.cf-i { -webkit-column-fill: inherit; -moz-column-fill: inherit; column-fill: inherit; }
-@media screen and (min-width: 48em) {
- .cf-auto-ns { -webkit-column-fill: auto; -moz-column-fill: auto; column-fill: auto; }
- .cf-balance-ns { -webkit-column-fill: balance; -moz-column-fill: balance; column-fill: balance; }
- .cf-i-ns { -webkit-column-fill: inherit; -moz-column-fill: inherit; column-fill: inherit; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .cf-auto-m { -webkit-column-fill: auto; -moz-column-fill: auto; column-fill: auto; }
- .cf-balance-m { -webkit-column-fill: balance; -moz-column-fill: balance; column-fill: balance; }
- .cf-i-m { -webkit-column-fill: inherit; -moz-column-fill: inherit; column-fill: inherit; }
-}
-@media screen and (min-width: 64em) {
- .cf-auto-l { -webkit-column-fill: auto; -moz-column-fill: auto; column-fill: auto; }
- .cf-balance-l { -webkit-column-fill: balance; -moz-column-fill: balance; column-fill: balance; }
- .cf-i-l { -webkit-column-fill: inherit; -moz-column-fill: inherit; column-fill: inherit; }
+.cf-auto {
+  column-fill: auto;
 }
 
+.cf-balance {
+  column-fill: balance;
+}
+
+.cf-i {
+  column-fill: inherit;
+}
+
+@media screen and (width >= 48em) {
+  .cf-auto-s {
+    column-fill: auto;
+  }
+
+  .cf-balance-s {
+    column-fill: balance;
+  }
+
+  .cf-i-s {
+    column-fill: inherit;
+  }
+}
+
+@media screen and (width >= 48em) and (width <= 64em) {
+  .cf-auto-m {
+    column-fill: auto;
+  }
+
+  .cf-balance-m {
+    column-fill: balance;
+  }
+
+  .cf-i-m {
+    column-fill: inherit;
+  }
+}
+
+@media screen and (width >= 64em) {
+  .cf-auto-l {
+    column-fill: auto;
+  }
+
+  .cf-balance-l {
+    column-fill: balance;
+  }
+
+  .cf-i-l {
+    column-fill: inherit;
+  }
+}

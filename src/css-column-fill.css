@@ -8,9 +8,9 @@
 .cf-i       { column-fill: inherit; }
 
 @media screen and (min-width: 48em) {
-  .cf-auto-ns    { column-fill: auto; }
-  .cf-balance-ns { column-fill: balance; }
-  .cf-i-ns       { column-fill: inherit; }
+  .cf-auto-s    { column-fill: auto; }
+  .cf-balance-s { column-fill: balance; }
+  .cf-i-s       { column-fill: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
